@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(-45deg, rgb(0, 129, 6),#62ff00 , rgb(0, 129, 6));
+    padding: 25px;
+    background-repeat: no-repeat;
+    
+    
+}
+
+input{
+    display: block;
+    width: 600px;
+    padding: 10px;
+    margin: 12px;
+    border: 2px solid black;
+    border-radius: 2rem;
+    font-size: 15px;
+    outline: none;
+}
+
+textarea{
+    display: block;
+    width: 600px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 2rem;
+    font-size: 15px;    
+    outline: none;
+}
+
+.submit_msg{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.btn{
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    background-color: greenyellow;
+    font-size: 18px;
+    position: relative;
+    left: 40%;
+}
+
